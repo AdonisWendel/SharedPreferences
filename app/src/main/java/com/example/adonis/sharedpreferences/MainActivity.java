@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         editor.putString("password", etPwd.getText().toString());
         editor.apply();
 
-        Toast.makeText(this, "Info saved!", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Information saved!", Toast.LENGTH_SHORT).show();
     }
 
     //Print out saved data
